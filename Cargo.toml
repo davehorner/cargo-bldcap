@@ -1,0 +1,11 @@
+[package]
+name = "cargo-bldcap"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "cargo-bldcap"  # This makes it a Cargo subcommand
+path = "src/main.rs"
+
+
+[dependencies]
